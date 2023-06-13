@@ -1,0 +1,124 @@
+body{
+background-color: red;
+
+}
+#test{
+
+    background-color: whitesmoke;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top:200px;
+}
+.eltunes{
+    display:none;
+    border:1px solid black;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: antiquewhite;
+    margin-top:50px;
+    
+
+    
+}
+
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+table {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #cccccc;
+    background-color:grey;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #cccccc;
+    text-align: right;
+    background-color:lightgreen;
+}
+
+.button-row {
+    display: flex;
+}
+
+.button {
+    flex-grow: 1;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #cccccc;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+    .button:hover {
+        background-color: #f2f2f2;
+        box-shadow: 0 0 5px #cccccc;
+      
+    }
+
+    .button:active {
+        background-color: #d9d9d9;
+        box-shadow: none;
+      
+    }
+
+#dob{
+
+border-radius: none;
+background-color:white;
+width:fit-content;
+color:black;
+border:none;
+
+}
+#f1{
+height: 100px;
+width: 100px;
+}
+
+.tartalom {
+    
+    min-height: 270px;
+    max-height: 270px;
+
+    min-width: 512px;
+    max-width: 512px;
+}
+
+ input[type=button]{
+
+
+
+    flex-grow: 1;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #cccccc;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: black;
+ } 
